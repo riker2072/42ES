@@ -1,5 +1,5 @@
 # 42ES
-E-ink based 42S scientific calculator (alpha version)
+E-ink based 42S scientific calculator (alpha version).  Uses the M5Stack Paper S3 hardware.
 
 Remember to use a high speed micro SD card for best results when saving data.
 
