@@ -18,4 +18,9 @@ Burning firmware:
 
 This 42ES firmware may be used for non-commercial personal or educational purposes. No warranties are made on the use of the firmware. It is up to the user to verify the accuracy or precision of this calculator implementation.
 
-Go to Github riker2072 42ES repository. Get 42ES.ino.bin, 42ES.ino.bootloader.bin and 42ES.ino.partitions.bin files. Get Windows ESP32 flash download tool at: https://www.espressif.com/en/support/download/other-tools Click on … to select 42ES.ino.bin file directory location. In the @ box, put 0x10000 Click on … to select 42ES.ino.bootloader.bin file directory location. In the @ box, put 0x0000 Click on … to select 42ES.ino.partitions.bin file directory location. In the @ box, put 0x8000 SPI speed is 40MHz, SPI mode is DIO. Check mark in the box labeled “DoNotChgBin”. My port settings are COM4, baud 115200. Connect the M5 Cardputer to your PC using a USB C cable. Click on START to burn the firmware.
+Go to Github riker2072 42ES repository. Get 42ES.ino.bin, 42ES.ino.bootloader.bin and 42ES.ino.partitions.bin files. Get Windows ESP32 flash download tool at: https://www.espressif.com/en/support/download/other-tools 
+
+Make sure you are using ESP32-S3 for the chip type.  
+Click on … to select 42ES.ino.bin file directory location. Check the box to the left of the filename.  In the @ box, put 0x10000
+Click on … to select 42ES.ino.bootloader.bin file directory location. Check the box to the left of the filename.  In the @ box, put 0x0000 
+Click on … to select 42ES.ino.partitions.bin file directory location. Check the box to the left of the filename.  In the @ box, put 0x8000 SPI speed is 40MHz, SPI mode is DIO. Check mark in the box labeled “DoNotChgBin”. My port settings are COM4, baud 115200. Connect the M5 Paper S3 to your PC using a USB C cable. Click on START to burn the firmware.
